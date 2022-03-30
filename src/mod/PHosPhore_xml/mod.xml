@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<mod>
+	<name>
+		PHosPhore_xml
+	</name>
+	<authors>
+		<author>
+			<name>
+				gugus2000
+			</name>
+			<contacts>
+				<contact type="email">
+					gugus2000@courrier.dev
+				</contact>
+				<contact type="twitter">
+					@gugus2000
+				</contact>
+				<contact type="mastodon">
+					gugus2000@framapiaf.org
+				</contact>
+			</contacts>
+			<work>
+				Initial work
+			</work>
+		</author>
+	</authors>
+	<description>
+		Add xml support
+	</description>
+	<version>
+		1.0.0
+	</version>
+	<license>
+		Chocolate-Ware License
+	</license>
+	<structure>
+		<folder name="src">
+			<folder name="asset">
+				<folder name="template">
+					<folder name="class">
+						<folder name="content">
+							<folder name="pageelement">
+								<folder name="xml">
+									<file name="Attribute.html" />
+									<file name="Node.html" />
+									<file name="OrphanNode.html" />
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+				<folder name="preset">
+					<folder name="default">
+						<folder name="xml">
+							<file name="PageElement.html" />
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="class">
+				<folder name="content">
+					<folder name="pageelement">
+						<folder name="preset">
+							<folder name="default">
+								<folder name="xml">
+									<file name="NotificationElement.class.php" />
+									<file name="PageElement.class.php" />
+								</folder>
+							</folder>
+						</folder>
+						<folder name="xml">
+							<file name="Attribute.class.php" />
+							<file name="Node.class.php" />
+							<file name="OrphanNode.class.php" />
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="config">
+				<folder name="class">
+					<folder name="content">
+						<folder name="pageelement">
+							<folder name="preset">
+								<folder name="default">
+									<folder name="xml">
+										<folder name="PageElement">
+											<file name="config.php" />
+										</folder>
+									</folder>
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="lang">
+				<folder name="class">
+					<folder name="content">
+						<folder name="pageelement">
+							<folder name="preset">
+								<folder name="default">
+									<folder name="xml">
+										<folder name="NotificationElement">
+											<file name="en.lang.php" />
+										</folder>
+									</folder>
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="locale">
+				<folder name="class">
+					<folder name="content">
+						<folder name="pageelement">
+							<folder name="preset">
+								<folder name="default">
+									<folder name="xml">
+										<folder name="NotificationElement">
+											<file name="en.locale.php" />
+										</folder>
+									</folder>
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="mod">
+				<folder name="PHosPhore_xml">
+					<file name="README.md" />
+					<file name="mod.xml" />
+				</folder>
+			</folder>
+		</folder>
+		<file name="LICENSE" />
+		<file name="README.md" />
+	</structure>
+</mod>
